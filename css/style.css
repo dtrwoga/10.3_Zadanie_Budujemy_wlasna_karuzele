@@ -9,13 +9,11 @@ body {
   width: 600px;
   height: 400px;
   position: relative;
-  align-items: center;
   margin: 0 auto;
   padding: 0;
   margin-top: 50px;
   overflow: hidden;
   vertical-align: middle;
-  display: inline;
   z-index: 1;
   display: flex;
   justify-content: center; }
