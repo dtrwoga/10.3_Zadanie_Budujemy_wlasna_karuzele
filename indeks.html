@@ -2,15 +2,18 @@
 <html>
   <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
  	    <title>10.3_Zadanie_Budujemy_wlasna_karuzele</title>
     	<link rel="stylesheet" href="css/style.css">
       <script src="jquery-1.12.4.min.js"></script>
   </head>
   <body>
-  	<div id ="js-carousel">
+ 
+   	<div id="js-carousel">
     	<ul>
-    		<li>
+    		<li class = "active">
     			<img src="https://images.pexels.com/photos/132419/pexels-photo-132419.jpeg?w=940&h=650&auto=compress&cs=tinysrgb">
+
     		</li>
 	    	<li>
 	    		<img src="https://images.pexels.com/photos/36764/marguerite-daisy-beautiful-beauty.jpg?w=940&h=650&auto=compress&cs=tinysrgb">
@@ -25,13 +28,17 @@
 	    		<img src="https://images.pexels.com/photos/36770/flower-lily-lilium-candidum-madonna-lily.jpg?w=940&h=650&auto=compress&cs=tinysrgb">
 	    	</li>
 	    </ul>
+
+
+
+	    
 	</div>
 
 <!-- Carousel indicators -->
 
   	<div class = "carousel-indicators">
 	  	<ul id="js-carousel-indicators">
-			<li></li>
+			<li class = "active"></li>
 			<li></li>
 			<li></li>
 			<li></li>
@@ -49,7 +56,8 @@
   			<p>></p>
   		</span>
   	</div>
-    <script type="text/javascript" src="js/scripts.js"></script>
+
+  	<script type="text/javascript" src="js/scripts.js"></script>
   </body>
 </html>
 
